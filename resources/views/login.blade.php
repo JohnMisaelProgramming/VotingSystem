@@ -12,8 +12,8 @@
   <body>
     <div class="row">
         <div class="col bg-left vh-100">
-            <div class="container">
-                <div class="row pt-4">
+            <div class="container ps-5">
+                <div class="row pt-5">
                     <h1>Sign In</h1>
                     <p>Please log in to vote for a candidate in a position in <b>EduVote</b>.</p>
                 </div>
