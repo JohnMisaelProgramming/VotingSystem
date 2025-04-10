@@ -1,0 +1,132 @@
+/* nav bar */
+.navbar {
+  background-color: #063b6c;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 10px 20px 20px 20px;
+  display: flex;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.navbar img {
+  width: 50px;
+  height: 50px;
+}
+
+.navbar a {
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  background-color: #4f92b3;
+  border-radius: 5px;
+  color: white;
+}
+
+.btn-login {
+  width: 20%;
+}
+/* Home Section */
+#Home {
+  padding-top: 10%;
+}
+
+.main-text{
+  font-size: 50px;
+  margin-bottom: 0;
+} 
+
+.sub-text {
+  font-size: 25px;
+}
+
+.how-button {
+  width: 70%;
+
+}
+
+/* About Section */
+#About {
+  padding-top: 5%;
+}
+
+.head-text {
+  font-size: xx-large !important;
+  text-align: center;
+}
+
+#About p {
+  font-size: 20px;
+}
+
+/* Voting Section */
+#Voting{
+  padding-top: 5%;
+}
+
+#Voting h4 {
+  color: #063b6c;
+}
+/* Contact Section */
+#Contact{
+  padding-top: 7%;
+}
+
+.btn-submit{
+  width: 30%;
+}
+
+/* Footer Section -- Contact Us */
+.pad-bottom-contact{
+  padding-bottom: 8%;
+}
+
+.contact-section {
+    background-color: #063b6c;
+    padding: 60px 0;
+    position: relative;
+    width: 100%;
+  }
+
+  .contact-card {
+    background-color: #4f92b3; 
+    border-radius: 10px;
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin-top: -130px; 
+    position: relative;
+    z-index: 2;
+  }
+
+  .icon-circle {
+    background-color: #e9eef2;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -35px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .icon-circle img {
+    width: 30px;
+    height: 30px;
+  }
+
+  .contact-info h5 {
+    font-weight: bold;
+  }
+
+  .contact-info p {
+    margin: 2px 0;
+    font-size: 14px;
+  }
