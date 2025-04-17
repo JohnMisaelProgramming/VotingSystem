@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title')
+@section('title', 'Results')
 @section('sidebar')
 @endsection
 @section('top')

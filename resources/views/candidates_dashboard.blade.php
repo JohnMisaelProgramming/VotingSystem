@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title')
+@section('title', )
 @section('sidebar')
 @endsection
 @section('top')
@@ -18,9 +18,9 @@
             text-align: center;
             display: flex;
             flex-direction: column;
-            justify-content: space-between; /* Add space between elements */
-            height: 90%; /* Make cards have the same height */
-            position: relative; /* Add this */
+            justify-content: space-between;
+            height: 90%;
+            position: relative; 
             box-shadow: lg;
         }
         .profile-card h5 {
@@ -51,8 +51,8 @@
             text-align: center;
             margin-top: 30px;
             flex-direction: column;
-            justify-content: space-between; /* Distribute space evenly */
-            height: 100%; /* Ensure cards are the same height */
+            justify-content: space-between; 
+            height: 100%; 
         }
         .rcard h5 {
             font-size: 1.2rem;
